@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import Typing from "react-typing-animation";
 import "./Header.css";
 
 export class Header extends Component {
@@ -8,9 +9,11 @@ export class Header extends Component {
         <div className="layer">
           <div className="shoucase">
             <h1 className="nume">Rareș's Portfolio</h1>
-            <p className="descriere">
-              Web Developer, Self‑Taught Programmer & Chemical Engineer
-            </p>
+            <Typing speed={50}>
+              <span className="descriere">
+                Web Developer, Self‑Taught Programmer & Chemical Engineer
+              </span>
+            </Typing>
           </div>
         </div>
       </div>
