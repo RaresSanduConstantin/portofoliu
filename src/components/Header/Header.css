@@ -1,0 +1,37 @@
+.bg {
+  background-image: url("../../assets/Aerial-view-of-Bucharest.jpg");
+
+  /* Center and scale the image nicely */
+  background-position: center;
+
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.layer {
+  height: 100%;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.6);
+  top: 0;
+  left: 0;
+}
+
+.shoucase {
+  opacity: 1;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.nume {
+  color: white;
+  font-size: 100px;
+  font-weight: bolder;
+}
+
+.descriere {
+  color: white;
+  font-size: 2em;
+}

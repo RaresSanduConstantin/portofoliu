@@ -1,0 +1,38 @@
+/* .bg-transparent {
+  background-color: black;
+} */
+
+.navbar {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  /* background: rgb(199, 167, 230); */
+  background-color: transparent;
+  font-weight: 600;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  transition: top 0.3s;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: white;
+}
+
+.navbarTitle {
+  /* margin-right: auto; */
+  font-size: 150%;
+  padding: 12px 16px;
+}
+
+.navbarItem {
+  padding: 16px 16px;
+  font-size: 1.5em;
+  cursor: pointer;
+  vertical-align: middle;
+}
+
+.navbar-bg {
+  background-color: black;
+}
