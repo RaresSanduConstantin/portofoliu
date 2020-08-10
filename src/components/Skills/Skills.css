@@ -1,0 +1,19 @@
+.container {
+  max-width: 800px;
+  margin: auto;
+  padding: 20px;
+}
+
+p {
+  font-size: 2em;
+}
+
+.skillbar-percent {
+  color: black !important;
+  font-size: 16px !important;
+  font-weight: bold !important;
+}
+
+.skillbar-title {
+  font-size: 16px !important;
+}
