@@ -11,22 +11,20 @@ const skills = [
   { type: "React.js", level: 80 },
 ];
 
+const colors = {
+  bar: "#137E6D",
+  title: {
+    text: "#000",
+    background: "#D0FEFE",
+  },
+};
+
 export class Skills extends Component {
   render() {
     return (
       <div className="container">
         <p>What do I know and try to improve:</p>
-        <SkillBar
-          offset={25}
-          skills={skills}
-          colors={{
-            bar: "#137E6D",
-            title: {
-              text: "#000",
-              background: "#D0FEFE",
-            },
-          }}
-        />
+        <SkillBar animationDelay={1000} skills={skills} colors={colors} />
       </div>
     );
   }
