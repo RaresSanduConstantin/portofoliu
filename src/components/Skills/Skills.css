@@ -6,6 +6,7 @@
 
 p {
   font-size: 2em;
+  font-weight: bold;
 }
 
 .skillbar-percent {
@@ -16,4 +17,8 @@ p {
 
 .skillbar-title {
   font-size: 16px !important;
+}
+
+.skillbar {
+  background-color: #cffdbc !important;
 }

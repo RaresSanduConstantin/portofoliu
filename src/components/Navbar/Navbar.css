@@ -6,16 +6,33 @@
   display: flex;
   justify-content: space-around;
   align-items: center;
-  /* background: rgb(199, 167, 230); */
   background-color: transparent;
+
   font-weight: 600;
   position: fixed;
   top: 0;
   width: 100%;
-  transition: top 0.3s;
+  transition: ease 0.3s;
+}
+
+.navbar2 {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #333;
+  font-weight: 600;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  transition: ease 0.3s;
 }
 
 .navbar a {
+  text-decoration: none;
+  color: white;
+}
+
+.navbar2 a {
   text-decoration: none;
   color: white;
 }

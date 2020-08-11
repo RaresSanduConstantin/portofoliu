@@ -2,6 +2,7 @@ body {
   height: 100%;
   margin: 0;
   font-family: "Montserrat", sans-serif;
+  background-color: #f4f4f4;
 }
 
 main {
@@ -10,7 +11,4 @@ main {
 
 .fixed {
   display: none;
-}
-
-.relative {
 }

@@ -5,9 +5,8 @@ import SkillBar from "react-skills-bars";
 const skills = [
   { type: "HTML", level: 99 },
   { type: "CSS", level: 98 },
-  { type: "JavaScript", level: 87 },
-  { type: "jQuery", level: 92 },
-  { type: "BootStrap", level: 90 },
+  { type: "JavaScript", level: 90 },
+  { type: "BootStrap", level: 87 },
   { type: "NodeJs", level: 75 },
   { type: "React.js", level: 80 },
 ];
@@ -18,9 +17,10 @@ export class Skills extends Component {
       <div className="container">
         <p>What do I know and try to improve:</p>
         <SkillBar
+          offset={25}
           skills={skills}
           colors={{
-            bar: "#7BC8F6",
+            bar: "#137E6D",
             title: {
               text: "#000",
               background: "#D0FEFE",

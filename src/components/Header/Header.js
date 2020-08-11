@@ -9,7 +9,7 @@ export class Header extends Component {
         <div className="layer">
           <div className="shoucase">
             <h1 className="nume">Rareș Sandu</h1>
-            <Typing speed={50}>
+            <Typing speed={10}>
               <span className="descriere">
                 Is a Web Developer, Self‑Taught Programmer & Chemical Engineer
               </span>
