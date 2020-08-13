@@ -23,7 +23,7 @@ export class Skills extends Component {
   render() {
     return (
       <div className="container">
-        <p>What do I know and try to Improve:</p>
+        <p>What do I know and try to improve!</p>
         <SkillBar animationDelay={1000} skills={skills} colors={colors} />
       </div>
     );
