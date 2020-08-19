@@ -28,8 +28,12 @@
 .nume {
   color: white;
   font-size: 100px;
-  font-weight: bolder;
+  font-weight: 900;
 }
+
+/* .nume span {
+  color: #fffb01;
+} */
 
 .descriere {
   color: white;

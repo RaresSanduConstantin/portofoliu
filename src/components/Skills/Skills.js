@@ -1,33 +1,22 @@
-import React, { Component } from "react";
+import React from "react";
+
 import "./Skills.css";
-import SkillBar from "react-skills-bars";
+import Progress from "./Part2";
 
-const skills = [
-  { type: "HTML", level: 99 },
-  { type: "CSS", level: 98 },
-  { type: "JavaScript", level: 90 },
-  { type: "BootStrap", level: 87 },
-  { type: "NodeJs", level: 75 },
-  { type: "React.js", level: 80 },
-];
+const Skills = () => {
+  setTimeout(() => {}, 500);
 
-const colors = {
-  bar: "#137E6D",
-  title: {
-    text: "#000",
-    background: "#D0FEFE",
-  },
+  return (
+    <div className="container">
+      <p>What do I know and try to improve!!!!!</p>
+      <Progress nume="HTML5" procent="90" />
+      <Progress nume="CSS3" procent="80" />
+      <Progress nume="JavaScript" procent="80" />
+      <Progress nume="ReactJS" procent="75" />
+      <Progress nume="NodeJs" procent="70" />
+      <Progress nume="Firebase" procent="75" />
+    </div>
+  );
 };
-
-export class Skills extends Component {
-  render() {
-    return (
-      <div className="container">
-        <p>What do I know and try to improve!</p>
-        <SkillBar animationDelay={1000} skills={skills} colors={colors} />
-      </div>
-    );
-  }
-}
 
 export default Skills;
