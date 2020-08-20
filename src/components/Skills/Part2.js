@@ -3,6 +3,7 @@ import "./Skills.css";
 
 const Progress = ({ nume, procent }) => {
   const [style, setStyle] = React.useState({});
+
   setTimeout(() => {
     const newStyle = {
       opacity: "1",
@@ -10,7 +11,7 @@ const Progress = ({ nume, procent }) => {
     };
 
     setStyle(newStyle);
-  }, 200);
+  }, 1000);
 
   return (
     <div className="bars">

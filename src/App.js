@@ -5,6 +5,7 @@ import Navbar from "./components/Navbar/Navbar";
 import "./App.css";
 import Homepage from "./pages/Homepage/Homepage";
 import Skills from "./components/Skills/Skills";
+import Description from "./components/Description/Description";
 
 class App extends Component {
   render() {
@@ -12,6 +13,7 @@ class App extends Component {
       <div>
         <Navbar />
         <Homepage />
+        {/* <Description /> */}
         <Skills />
       </div>
     );
