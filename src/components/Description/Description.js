@@ -1,14 +1,31 @@
 import React, { Component } from "react";
+import "./Description.css";
+import ME from "../../assets/me3.jpeg";
 
 export class Description extends Component {
   render() {
     return (
-      <div>
-        <img
-          src="https://avatars3.githubusercontent.com/u/59281487?s=400&u=ed6e2f43fffde34964b8ae73a3fdaacd1d7516f7&v=4"
-          alt="Profil"
-        />
-        <p>asd</p>
+      <div className="description">
+        <div className="imagine">
+          <img src={ME} alt="Profil" />
+        </div>
+        <div className="text">
+          <h1>About Me</h1>
+          <p>
+            From December 2019 I started learning web development, HTML, CSS,
+            JavaScript, NodeJs, PostgreSQL, etc. out of pure passion and desire
+            to work in this field. I am still at the beginning of my career, but
+            I aim to learn something new every day. If you want to see my
+            results please access my work!
+          </p>
+
+          <p>
+            I am a highly motivated self-taught web developer, chemical engineer
+            and sales specialist at the beginning of my career looking for a
+            collaboration where I can put my creativity and problem-solving
+            skills into practice.
+          </p>
+        </div>
       </div>
     );
   }
