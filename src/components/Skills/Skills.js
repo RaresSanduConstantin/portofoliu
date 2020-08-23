@@ -4,11 +4,10 @@ import "./Skills.css";
 import Progress from "./Part2";
 
 const Skills = () => {
- 
-
   return (
     <div className="container">
       <p>What do I know and try to improve</p>
+
       <Progress nume="HTML5" procent="95" />
       <Progress nume="CSS3" procent="93" />
       <Progress nume="JavaScript" procent="82" />

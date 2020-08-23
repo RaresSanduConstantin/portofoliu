@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-// import Typing from "react-typing-animation";
+import Typical from "react-typical";
 import "./Header.css";
 
 export class Header extends Component {
@@ -42,10 +42,17 @@ export class Header extends Component {
               </a>
             </div>
 
-            <div>
-              <span className="descriere">
-                Is a Web Developer, Self‑Taught Programmer & Chemical Engineer
-              </span>
+            <div className="descriere">
+              <p>
+                <Typical
+                  wrapper="b"
+                  steps={[
+                    "Is a Web Developer💻, Self‑Taught Programmer & a Chemical Engineer",
+                    1000,
+                  ]}
+                />
+                {/* Is a Web Developer, Self‑Taught Programmer & Chemical Engineer */}
+              </p>
             </div>
           </div>
         </div>

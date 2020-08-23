@@ -2,7 +2,7 @@
   background-image: url("../../assets/Aerial-view-of-Bucharest.jpg");
 
   /* Center and scale the image nicely */
-  background-position: center;
+  background-position: top;
 
   background-repeat: no-repeat;
   background-size: cover;
@@ -37,7 +37,7 @@
 
 .descriere {
   color: white;
-  font-size: 2.5em;
+  font-size: 1em;
 }
 
 .icons {
