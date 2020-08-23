@@ -4,7 +4,7 @@ import "./Skills.css";
 import Progress from "./Part2";
 
 const Skills = () => {
-  setTimeout(() => {}, 500);
+ 
 
   return (
     <div className="container">

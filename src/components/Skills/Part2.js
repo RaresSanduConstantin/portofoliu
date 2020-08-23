@@ -11,7 +11,7 @@ const Progress = ({ nume, procent }) => {
     };
 
     setStyle(newStyle);
-  }, 1000);
+  }, 2000);
 
   return (
     <div className="bars">

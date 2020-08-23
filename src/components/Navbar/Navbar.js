@@ -26,10 +26,10 @@ export class Navbar extends Component {
           <a href="/" className="navbarItem">
             Home
           </a>
-          <a href="/" className="navbarItem">
+          <a href="/work" className="navbarItem">
             My Work
           </a>
-          <a href="/" className="navbarItem">
+          <a href="/contact" className="navbarItem">
             Contact
           </a>
         </header>
