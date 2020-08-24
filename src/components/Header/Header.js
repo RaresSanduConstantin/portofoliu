@@ -3,6 +3,36 @@ import Typical from "react-typical";
 import "./Header.css";
 
 export class Header extends Component {
+  constructor(props) {
+    super(props);
+    this.myRef = React.createRef();
+  }
+
+  componentDidMount() {
+    let i = 0;
+    let text =
+      "Is a Web Developer, Self‑Taught Programmer & a Chemical Engineer";
+    let speed = 60;
+    this.myRef.current.innerHTML = "";
+
+    const typeOnDOM = () => {
+      if (i < text.length) {
+        this.myRef.current.innerHTML =
+          this.myRef.current.innerHTML + text.charAt(i);
+        i++;
+        setTimeout(typeOnDOM, speed);
+        // } else {
+        //   i = 0;
+        //   this.myRef.current.innerHTML = "";
+        //   setTimeout(() => {
+        //     setTimeout(typeOnDOM, speed);
+        //     console.log(this.myRef.current.innerHTML);
+        //   }, 1500);
+      }
+    };
+    typeOnDOM();
+  }
+
   render() {
     return (
       <div className="bg">
@@ -43,16 +73,7 @@ export class Header extends Component {
             </div>
 
             <div className="descriere">
-              <p>
-                <Typical
-                  wrapper="b"
-                  steps={[
-                    "Is a Web Developer💻, Self‑Taught Programmer & a Chemical Engineer",
-                    1000,
-                  ]}
-                />
-                {/* Is a Web Developer, Self‑Taught Programmer & Chemical Engineer */}
-              </p>
+              <p ref={this.myRef}></p>
             </div>
           </div>
         </div>
