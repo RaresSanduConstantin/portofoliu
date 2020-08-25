@@ -7,7 +7,7 @@ export class Description extends Component {
     return (
       <div className="description">
         <div className="imagine">
-          <img src={ME} alt="Profil" />
+          <img src={ME} alt="Profil" className="img-wd" />
         </div>
         <div className="text">
           <h1>About Me</h1>
@@ -25,6 +25,14 @@ export class Description extends Component {
             collaboration where I can put my creativity and problem-solving
             skills into practice.
           </p>
+          <a
+            className="download"
+            target="_blank"
+            href="../../assets/PDF/Rares_Sandu_CV.pdf"
+            download
+          >
+            <button className="example_d">Donwload CV</button>
+          </a>
         </div>
       </div>
     );

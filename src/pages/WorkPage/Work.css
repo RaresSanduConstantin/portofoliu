@@ -1,5 +1,17 @@
 .work {
-  background-color: turquoise;
-  height: 100vh;
+  background-color: rosybrown;
+  /* height: 100vh; */
   color: wheat;
+  /* width: 200px; */
+}
+
+.card-component {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-items: center;
+}
+
+.imagini-proiect {
+  width: 50px;
 }
