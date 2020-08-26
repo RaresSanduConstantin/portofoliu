@@ -18,7 +18,7 @@ const Work = () => {
             </div>
             <p>{otherProps.title}</p>
             <a href={otherProps.githubLink}>View CodeBase</a>
-            <a href={otherProps.liveAppLink}>View LiveApp</a>
+            <a href={otherProps.liveAppLink}>View LiveApp!</a>
           </div>
         );
       })}
