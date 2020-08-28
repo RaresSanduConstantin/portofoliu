@@ -1,8 +1,12 @@
 .work {
-  background-color: rosybrown;
+  background-color: rgb(112, 112, 112);
   /* height: 100vh; */
   color: wheat;
   /* width: 200px; */
+}
+
+p {
+  padding: 0;
 }
 
 .container-card {
@@ -10,18 +14,32 @@
 }
 
 .card-component {
-  margin-top: 200px;
-  width: 100%;
-  height: 100px;
+  /* margin-top: 50px; */
+  max-width: 100vw;
+  height: 70vh;
   display: flex;
   flex-direction: row;
-  /* align-items: center;
-  justify-items: center; */
+  align-items: center;
+  justify-content: center;
 }
 
-.imagini-card {
-  width: 70vw;
+.card-component img {
+  border: solid 1px black;
+  max-width: 640px;
+  margin-right: 200px;
+  border-radius: 10px;
 }
+
+/* .imagini-card {
+  width: 400px;
+  border-radius: 30px;
+} */
 
 .text-card {
+  display: flex;
+  flex-direction: column;
+}
+
+.text-card a {
+  text-decoration: none;
 }

@@ -7,7 +7,7 @@
   justify-content: space-around;
   align-items: center;
   background-color: transparent;
-
+  z-index: 10;
   font-weight: 600;
   position: fixed;
   top: 0;
@@ -16,6 +16,7 @@
 }
 
 .navbar2 {
+  z-index: 10;
   display: flex;
   justify-content: space-around;
   align-items: center;
