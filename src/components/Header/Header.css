@@ -1,6 +1,6 @@
 .bg {
   background-image: url("../../assets/Aerial-view-of-Bucharest.jpg");
-
+  background-attachment: fixed;
   /* Center and scale the image nicely */
   background-position: top;
 
