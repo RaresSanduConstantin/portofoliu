@@ -3,6 +3,8 @@
   /* height: 100vh; */
   color: wheat;
   /* width: 200px; */
+  padding-bottom: 10em;
+  padding-top: 10em;
 }
 
 p {
@@ -21,6 +23,11 @@ p {
   flex-direction: row;
   align-items: center;
   justify-content: center;
+}
+
+.card-component > * {
+  margin-top: 10em;
+  /* padding-bottom: 10em; */
 }
 
 .card-component img {
