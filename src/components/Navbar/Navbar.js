@@ -20,9 +20,9 @@ export class Navbar extends Component {
     return (
       <div>
         <header className={this.state.className}>
-          <a href="/" className="navbarTitle navbarItem">
+          {/* <a href="/" className="navbarTitle navbarItem">
             Rares's Portfolio
-          </a>
+          </a> */}
           <a href="/" className="navbarItem">
             Home
           </a>

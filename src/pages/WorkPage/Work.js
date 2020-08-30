@@ -1,7 +1,7 @@
 import React from "react";
 import "./Work.css";
 import { INITIAL } from "../../const/directory";
-import CardComponent from "./work2";
+
 import Tilt from "react-tilt";
 
 const Work = () => {
@@ -12,7 +12,7 @@ const Work = () => {
           <div key={id} className="card-component">
             <Tilt
               className="Tilt"
-              options={{ max: 35, scale: 1 }}
+              options={{ max: 15, scale: 1 }}
               // style={{ height: 250, width: 250 }}
             >
               <div className="Tilt-inner">
@@ -24,9 +24,26 @@ const Work = () => {
               </div>
             </Tilt>
             <div className="text-card">
-              <p>{otherProps.title}</p>
-              <a href={otherProps.githubLink}>View CodeBase</a>
-              <a href={otherProps.liveAppLink}>View LiveApp!</a>
+              <p className="title">{otherProps.title}</p>
+              <div className="btn-link1">
+                <a
+                  className="example_d"
+                  href={otherProps.githubLink}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  View Code Base
+                </a>
+
+                <a
+                  className="example_d"
+                  href={otherProps.liveAppLink}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  View App Live
+                </a>
+              </div>
             </div>
           </div>
         );

@@ -18,6 +18,7 @@
 
 .img-wd {
   width: 100%;
+  border-radius: 15px;
 }
 
 .text {
@@ -59,7 +60,7 @@
   border-radius: 50px;
   border-color: #494949 !important;
   transition: all 0.3s ease 0s;
-  background-color: #494949;
+  background-color: #32adff;
 }
 
 .color {
