@@ -16,11 +16,17 @@ const Work = () => {
               // style={{ height: 250, width: 250 }}
             >
               <div className="Tilt-inner">
-                <img
-                  className="imagini-card"
-                  src={otherProps.imageUrl}
-                  alt={otherProps.title}
-                />
+                <a
+                  href={otherProps.liveAppLink}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <img
+                    className="imagini-card"
+                    src={otherProps.imageUrl}
+                    alt={otherProps.title}
+                  />
+                </a>
               </div>
             </Tilt>
             <div className="text-card">
