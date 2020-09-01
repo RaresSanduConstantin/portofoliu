@@ -195,6 +195,19 @@ iframe {
   /* padding-bottom: 49px; */
 }
 
+.contact102-form-title {
+  font-weight: bold;
+  display: block;
+  /* font-family: Ubuntu-Bold; */
+  font-size: 20px;
+  color: #fff;
+  line-height: 1.2;
+  text-transform: uppercase;
+  text-align: center;
+  padding-bottom: 20px;
+  margin-top: -10px;
+}
+
 .contact1 {
   padding: 20px 0 20px 0;
   margin-top: 10px;

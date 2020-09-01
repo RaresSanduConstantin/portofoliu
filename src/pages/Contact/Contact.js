@@ -40,6 +40,7 @@ const Contact = () => {
                 <i className="fab fa-instagram fa-2x"></i>
               </a>
             </div>
+            <span className="contact102-form-title">Or</span>
             <span className="contact100-form-title">Send Me A Message</span>
             <div
               className="wrap-input100 validate-input"
@@ -50,6 +51,7 @@ const Contact = () => {
                 type="text"
                 name="name"
                 placeholder="Full Name"
+                required
               />
               <span className="focus-input100"></span>
             </div>
@@ -60,9 +62,10 @@ const Contact = () => {
             >
               <input
                 className="input100"
-                type="text"
+                type="email"
                 name="email"
                 placeholder="E-mail"
+                required
               />
               <span className="focus-input100"></span>
             </div>
@@ -76,6 +79,7 @@ const Contact = () => {
                 type="text"
                 name="phone"
                 placeholder="Phone"
+                required
               />
               <span className="focus-input100"></span>
             </div>
@@ -93,7 +97,7 @@ const Contact = () => {
             </div>
 
             <div className="container-contact100-form-btn">
-              <button className="contact100-form-btn">
+              <button className="contact100-form-btn" type="submit">
                 <i className="fa fa-paper-plane-o m-r-6" aria-hidden="true"></i>
                 <span className="send-btn">Send</span>
               </button>
