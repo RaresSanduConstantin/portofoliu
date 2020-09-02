@@ -43,6 +43,7 @@ p {
 .descriere {
   color: white;
   font-size: 1em;
+  display: flex;
 }
 
 .icons {
@@ -55,4 +56,21 @@ p {
 .icons a {
   text-decoration: none;
   color: white;
+}
+
+/* .ceva {
+  margin: 0;
+  padding: 0;
+} */
+
+.ceva {
+  height: 3em;
+  border-right: 0.05em solid;
+  animation: caret 1s steps(1) infinite;
+  /* align-self: flex-start; */
+}
+@keyframes caret {
+  50% {
+    border-color: transparent;
+  }
 }

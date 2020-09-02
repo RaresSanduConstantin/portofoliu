@@ -31,7 +31,7 @@ export class Description extends Component {
             href="../../assets/PDF/Rares_Sandu_CV.pdf"
             download
           >
-            <button className="example_d">Donwload CV</button>
+            <button className="example_d">Download My CV</button>
           </a>
         </div>
       </div>

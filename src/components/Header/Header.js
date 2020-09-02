@@ -38,9 +38,7 @@ export class Header extends Component {
       <div className="bg">
         <div className="layer">
           <div className="shoucase">
-            <h1 className="nume">
-              Rareș <span>Sandu</span>
-            </h1>
+            <h1 className="nume">Rareș Sandu</h1>
             <div className="icons">
               <a
                 href="https://www.facebook.com/rrares.ssandu"
@@ -74,6 +72,7 @@ export class Header extends Component {
 
             <div className="descriere">
               <p ref={this.myRef}></p>
+              <span className="ceva" aria-hidden="true"></span>
             </div>
           </div>
         </div>

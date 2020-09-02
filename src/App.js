@@ -9,6 +9,7 @@ import Homepage from "./pages/Homepage/Homepage";
 import Footer from "./components/Footer/Footer";
 import Work from "./pages/WorkPage/Work";
 import Contact from "./pages/Contact/Contact";
+import Admin from "./pages/Admin/Admin";
 
 class App extends Component {
   render() {
@@ -21,6 +22,7 @@ class App extends Component {
 
             <Route path="/work" component={Work} />
             <Route path="/contact" component={Contact} />
+            <Route path="/admin" component={Admin} />
           </Switch>
           <Footer />
         </div>

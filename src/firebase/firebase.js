@@ -1,5 +1,6 @@
-import firebase from "firebase/app";
-import "firebase/firestore";
+import * as firebase from "firebase/app";
+import "firebase/analytics";
+import "firebase/database";
 import "firebase/auth";
 
 const config = {
@@ -12,3 +13,9 @@ const config = {
   appId: "1:152052172457:web:907d4e0dd0fcb987244bb8",
   measurementId: "G-9MS9FWH6YR",
 };
+firebase.initializeApp(config);
+firebase.analytics();
+
+export const messageRef = firebase.database().ref("messages");
+
+export default firebase;
