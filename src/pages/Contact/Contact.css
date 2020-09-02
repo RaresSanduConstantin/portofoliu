@@ -146,7 +146,7 @@ iframe {
   line-height: 1.2;
   text-transform: uppercase;
   text-align: center;
-  padding-bottom: 49px;
+  /* padding-bottom: 49px; */
 }
 .contact101-form-title {
   font-weight: bold;
@@ -386,6 +386,15 @@ textarea.input100 {
 .alert-validate:hover:before {
   visibility: visible;
   opacity: 1;
+}
+
+.alert {
+  text-align: center;
+  padding: 10px;
+  background: #79c879;
+  color: #fff;
+  margin-bottom: 10px;
+  opacity: 0;
 }
 
 @media (max-width: 992px) {

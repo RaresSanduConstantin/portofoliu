@@ -11,6 +11,8 @@ class Contact extends Component {
       phone: "",
       message: "",
     };
+
+    this.mesaj = React.createRef();
   }
 
   handleNameChange = (event) => {
@@ -51,12 +53,18 @@ class Contact extends Component {
       this.state.phone,
       this.state.message
     );
+    this.mesaj.current.style.opacity = "1";
+
     this.setState({
       name: "",
       email: "",
       phone: "",
       message: "",
     });
+
+    setTimeout(() => {
+      return (this.mesaj.current.style.opacity = "0");
+    }, 3000);
   };
 
   saveMessage = (name, email, phone, message) => {
@@ -112,6 +120,9 @@ class Contact extends Component {
               </div>
               <span className="contact102-form-title">Or</span>
               <span className="contact100-form-title">Send Me A Message</span>
+              <div className="alert" ref={this.mesaj}>
+                Your Message has been sent!
+              </div>
               <div
                 className="wrap-input100 validate-input"
                 data-validate="Please enter your name"
