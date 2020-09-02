@@ -53,7 +53,6 @@ class Contact extends Component {
       this.state.phone,
       this.state.message
     );
-    this.mesaj.current.style.opacity = "1";
 
     this.setState({
       name: "",
@@ -61,6 +60,7 @@ class Contact extends Component {
       phone: "",
       message: "",
     });
+    this.mesaj.current.style.opacity = "1";
 
     setTimeout(() => {
       return (this.mesaj.current.style.opacity = "0");

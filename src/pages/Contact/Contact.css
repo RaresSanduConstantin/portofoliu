@@ -390,11 +390,15 @@ textarea.input100 {
 
 .alert {
   text-align: center;
+  font-weight: bold;
+  font-size: 20px;
   padding: 10px;
   background: #79c879;
   color: #fff;
   margin-bottom: 10px;
+  border-radius: 31px;
   opacity: 0;
+  transition: opacity ease-in-out 0.35s;
 }
 
 @media (max-width: 992px) {
