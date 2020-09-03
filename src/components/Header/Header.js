@@ -10,8 +10,7 @@ export class Header extends Component {
 
   componentDidMount() {
     let i = 0;
-    let text =
-      "Is a Web Developer, Self‑Taught Programmer & a Chemical Engineer";
+    let text = "Is a Web Developer, Self‑Taught Programmer & Chemical Engineer";
     let speed = 60;
     this.myRef.current.innerHTML = "";
 

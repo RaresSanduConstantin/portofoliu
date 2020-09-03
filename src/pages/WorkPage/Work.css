@@ -92,3 +92,10 @@ a:hover {
   justify-self: center;
   align-self: center;
 }
+
+@media (max-width: 600px) {
+  .card-component {
+    display: flex;
+    flex-direction: column;
+  }
+}
