@@ -128,6 +128,7 @@ class Contact extends Component {
                 data-validate="Please enter your name"
               >
                 <input
+                  required
                   className="input100"
                   type="text"
                   // name="name"
@@ -143,6 +144,7 @@ class Contact extends Component {
                 data-validate="Please enter your email: e@a.x"
               >
                 <input
+                  required
                   className="input100"
                   type="email"
                   // name="email"
@@ -158,6 +160,7 @@ class Contact extends Component {
                 data-validate="Please enter your phone"
               >
                 <input
+                  required
                   className="input100"
                   type="text"
                   // name="phone"

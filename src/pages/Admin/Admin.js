@@ -3,7 +3,7 @@ import "./Admin.css";
 
 class Admin extends Component {
   render() {
-    return <div>Admin Page!!!!!!!!!!!!</div>;
+    return <div>Admin Page!</div>;
   }
 }
 
