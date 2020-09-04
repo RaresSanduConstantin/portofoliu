@@ -1,0 +1,13 @@
+.containerForm {
+  width: 600px;
+  height: 100vh;
+  margin: auto;
+  padding-top: 100px;
+  display: flex;
+}
+
+.desc {
+  display: flex;
+  padding: 20px;
+  justify-content: flex-end;
+}
