@@ -1,13 +1,12 @@
 import React, { Component } from "react";
+import { messageData } from "../../firebase/firebase";
 import "./Admin.css";
 
 class Admin extends Component {
   constructor(props) {
     super(props);
     this.state = { headerTyping: "sssss", descriere: "" };
-
-    this.handleChange = this.handleChange.bind(this);
-    this.handleSubmit = this.handleSubmit.bind(this);
+    this.returnData();
   }
 
   handleChange(event) {
@@ -19,13 +18,22 @@ class Admin extends Component {
     e.preventDefualt();
   }
 
+  returnData() {
+    messageData.once("value", (snap) => {
+      const obiectMesaj = snap.val();
+      console.log(obiectMesaj);
+    });
+  }
+
+  removeData() {}
+
   render() {
     return (
-      <div className="containerForm ">
+      <div className="containerForm">
         <form>
           <div className="desc">
             <p>
-              <label for="typintDesc">Typing description:</label>
+              <label>Typing description:</label>
             </p>
             <input
               id="typintDesc"
@@ -35,7 +43,7 @@ class Admin extends Component {
           </div>
           <div className="desc">
             <p>
-              <label for="description">Description:</label>
+              <label>Description:</label>
             </p>
             <input id="description" type="text" placeholder="Description" />
           </div>

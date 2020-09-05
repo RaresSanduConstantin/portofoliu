@@ -18,4 +18,6 @@ firebase.analytics();
 
 export const messageRef = firebase.database().ref("messages");
 
+export const messageData = firebase.database().ref("messages");
+
 export default firebase;

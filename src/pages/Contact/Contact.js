@@ -41,12 +41,7 @@ class Contact extends Component {
 
   handleSubmit = (event) => {
     event.preventDefault();
-    console.log(
-      this.state.name,
-      this.state.email,
-      this.state.phone,
-      this.state.message
-    );
+
     this.saveMessage(
       this.state.name,
       this.state.email,
