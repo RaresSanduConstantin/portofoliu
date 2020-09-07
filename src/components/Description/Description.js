@@ -28,7 +28,8 @@ export class Description extends Component {
           <a
             className="download"
             target="_blank"
-            href="../../assets/PDF/Rares_Sandu_CV.pdf"
+            href="https://github.com/RaresSanduConstantin/portofoliu/raw/master/src/assets/PDF/Rares_Sandu_CV.pdf"
+            rel="noopener noreferrer"
             download
           >
             <button className="example_d">Download My CV</button>

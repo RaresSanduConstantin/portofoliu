@@ -16,7 +16,8 @@
   margin-bottom: 50px;
 }
 
-p {
+.skillDesc {
+  text-align: center;
   font-size: 2em;
   /* text-align: center; */
   font-weight: bold;
@@ -86,4 +87,14 @@ p {
 
 .bar-expand:hover {
   background: #3e78af;
+}
+
+@media (max-width: 600px) {
+  .skillDesc {
+    font-size: 18px;
+  }
+
+  .bar-label {
+    font-size: 12px;
+  }
 }

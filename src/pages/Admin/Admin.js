@@ -30,7 +30,10 @@ class Admin extends Component {
   returnData() {
     messageData.once("value", (snap) => {
       const obiectMesaj = snap.val();
-      console.log(obiectMesaj);
+      // console.log(obiectMesaj);
+      for (const p in obiectMesaj) {
+        console.log(`${p}:`, obiectMesaj[p].email);
+      }
     });
   }
 

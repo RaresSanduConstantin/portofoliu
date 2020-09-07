@@ -41,25 +41,43 @@ class Contact extends Component {
 
   handleSubmit = (event) => {
     event.preventDefault();
+    var re =
+      '/^(([^<>()[]\\.,;:s@"]+(.[^<>()[]\\.,;:s@"]+)*)|(".+"))@(([[0-9]{1,3}.[0-9]{1,3}.[0-9]{1,3}.[0-9]{1,3}])|(([a-zA-Z-0-9]+.)+[a-zA-Z]{2,}))$/';
 
-    this.saveMessage(
-      this.state.name,
-      this.state.email,
-      this.state.phone,
-      this.state.message
-    );
+    if (
+      this.state.name === "" ||
+      this.state.email === "" ||
+      this.state.phone === ""
+    ) {
+      this.mesaj.current.style.opacity = "1";
+      this.mesaj.current.innerHTML = "Please fill all the fields";
+      this.mesaj.current.style.backgroundColor = "red";
+      setTimeout(() => {
+        return (this.mesaj.current.style.opacity = "0");
+      }, 1000);
+    } else {
+      this.saveMessage(
+        this.state.name,
+        this.state.email,
+        this.state.phone,
+        this.state.message
+      );
 
-    this.setState({
-      name: "",
-      email: "",
-      phone: "",
-      message: "",
-    });
-    this.mesaj.current.style.opacity = "1";
+      this.setState({
+        name: "",
+        email: "",
+        phone: "",
+        message: "",
+      });
+      this.mesaj.current.innerHTML = "Your Message has been sent!";
+      this.mesaj.current.style.backgroundColor = "#79c879";
 
-    setTimeout(() => {
-      return (this.mesaj.current.style.opacity = "0");
-    }, 3000);
+      this.mesaj.current.style.opacity = "1";
+
+      setTimeout(() => {
+        return (this.mesaj.current.style.opacity = "0");
+      }, 3000);
+    }
   };
 
   saveMessage = (name, email, phone, message) => {
@@ -123,7 +141,6 @@ class Contact extends Component {
                 data-validate="Please enter your name"
               >
                 <input
-                  required
                   className="input100"
                   type="text"
                   // name="name"
@@ -139,7 +156,6 @@ class Contact extends Component {
                 data-validate="Please enter your email: e@a.x"
               >
                 <input
-                  required
                   className="input100"
                   type="email"
                   // name="email"
@@ -155,13 +171,13 @@ class Contact extends Component {
                 data-validate="Please enter your phone"
               >
                 <input
-                  required
                   className="input100"
                   type="text"
                   // name="phone"
                   placeholder="Phone"
                   value={phone}
                   onChange={this.handlePhoneChange}
+                  require
                 />
                 <span className="focus-input100"></span>
               </div>
