@@ -401,9 +401,13 @@ textarea.input100 {
   transition: opacity ease-in-out 0.35s;
 }
 
-@media (max-width: 992px) {
+@media (max-width: 600px) {
   .alert-validate::before {
     visibility: visible;
     opacity: 1;
+  }
+
+  .contact100-form-title {
+    font-size: 18px;
   }
 }

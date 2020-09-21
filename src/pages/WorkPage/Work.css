@@ -104,6 +104,18 @@ a:hover {
     flex-direction: column;
   }
 
+  .btn-link1 {
+    display: flex;
+    flex-direction: column;
+
+    text-align: center;
+  }
+
+  /* .btn-link1 > a {
+    font-size: 12px !important;
+    padding: 8px;
+  } */
+
   .Tilt {
     /* margin-top: 0;
     padding-top: 0; */
