@@ -1,24 +1,24 @@
 {
   "files": {
-    "main.css": "/static/css/main.7050f203.chunk.css",
-    "main.js": "/static/js/main.fce14690.chunk.js",
-    "main.js.map": "/static/js/main.fce14690.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.413cd454.js",
-    "runtime-main.js.map": "/static/js/runtime-main.413cd454.js.map",
-    "static/js/2.9c403ec1.chunk.js": "/static/js/2.9c403ec1.chunk.js",
-    "static/js/2.9c403ec1.chunk.js.map": "/static/js/2.9c403ec1.chunk.js.map",
-    "index.html": "/index.html",
-    "precache-manifest.ab36a2da9562dc5814302b9317bda4d4.js": "/precache-manifest.ab36a2da9562dc5814302b9317bda4d4.js",
-    "service-worker.js": "/service-worker.js",
-    "static/css/main.7050f203.chunk.css.map": "/static/css/main.7050f203.chunk.css.map",
-    "static/js/2.9c403ec1.chunk.js.LICENSE.txt": "/static/js/2.9c403ec1.chunk.js.LICENSE.txt",
-    "static/media/Header.css": "/static/media/Aerial-view-of-Bucharest.6b2aa872.jpg",
-    "static/media/me3.jpeg": "/static/media/me3.d64a98d4.jpeg"
+    "main.css": "/portofoliu/static/css/main.a1e448a3.chunk.css",
+    "main.js": "/portofoliu/static/js/main.b070e246.chunk.js",
+    "main.js.map": "/portofoliu/static/js/main.b070e246.chunk.js.map",
+    "runtime-main.js": "/portofoliu/static/js/runtime-main.5f83ecb7.js",
+    "runtime-main.js.map": "/portofoliu/static/js/runtime-main.5f83ecb7.js.map",
+    "static/js/2.a979f511.chunk.js": "/portofoliu/static/js/2.a979f511.chunk.js",
+    "static/js/2.a979f511.chunk.js.map": "/portofoliu/static/js/2.a979f511.chunk.js.map",
+    "index.html": "/portofoliu/index.html",
+    "precache-manifest.9607226f916ab350e48740820742e8b8.js": "/portofoliu/precache-manifest.9607226f916ab350e48740820742e8b8.js",
+    "service-worker.js": "/portofoliu/service-worker.js",
+    "static/css/main.a1e448a3.chunk.css.map": "/portofoliu/static/css/main.a1e448a3.chunk.css.map",
+    "static/js/2.a979f511.chunk.js.LICENSE.txt": "/portofoliu/static/js/2.a979f511.chunk.js.LICENSE.txt",
+    "static/media/Header.css": "/portofoliu/static/media/Aerial-view-of-Bucharest.6b2aa872.jpg",
+    "static/media/me3.jpeg": "/portofoliu/static/media/me3.d64a98d4.jpeg"
   },
   "entrypoints": [
-    "static/js/runtime-main.413cd454.js",
-    "static/js/2.9c403ec1.chunk.js",
-    "static/css/main.7050f203.chunk.css",
-    "static/js/main.fce14690.chunk.js"
+    "static/js/runtime-main.5f83ecb7.js",
+    "static/js/2.a979f511.chunk.js",
+    "static/css/main.a1e448a3.chunk.css",
+    "static/js/main.b070e246.chunk.js"
   ]
 }
