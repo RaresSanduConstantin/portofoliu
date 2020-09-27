@@ -1,24 +1,24 @@
 {
   "files": {
     "main.css": "/portofoliu/static/css/main.9e0fb2e8.chunk.css",
-    "main.js": "/portofoliu/static/js/main.5acf0039.chunk.js",
-    "main.js.map": "/portofoliu/static/js/main.5acf0039.chunk.js.map",
+    "main.js": "/portofoliu/static/js/main.bb1e2e34.chunk.js",
+    "main.js.map": "/portofoliu/static/js/main.bb1e2e34.chunk.js.map",
     "runtime-main.js": "/portofoliu/static/js/runtime-main.5f83ecb7.js",
     "runtime-main.js.map": "/portofoliu/static/js/runtime-main.5f83ecb7.js.map",
-    "static/js/2.1bf0b527.chunk.js": "/portofoliu/static/js/2.1bf0b527.chunk.js",
-    "static/js/2.1bf0b527.chunk.js.map": "/portofoliu/static/js/2.1bf0b527.chunk.js.map",
+    "static/js/2.a979f511.chunk.js": "/portofoliu/static/js/2.a979f511.chunk.js",
+    "static/js/2.a979f511.chunk.js.map": "/portofoliu/static/js/2.a979f511.chunk.js.map",
     "index.html": "/portofoliu/index.html",
-    "precache-manifest.d6afd4126ae095af8c1c1698ecbbad58.js": "/portofoliu/precache-manifest.d6afd4126ae095af8c1c1698ecbbad58.js",
+    "precache-manifest.8b288ac2722461177729f59a23c5d3b3.js": "/portofoliu/precache-manifest.8b288ac2722461177729f59a23c5d3b3.js",
     "service-worker.js": "/portofoliu/service-worker.js",
     "static/css/main.9e0fb2e8.chunk.css.map": "/portofoliu/static/css/main.9e0fb2e8.chunk.css.map",
-    "static/js/2.1bf0b527.chunk.js.LICENSE.txt": "/portofoliu/static/js/2.1bf0b527.chunk.js.LICENSE.txt",
+    "static/js/2.a979f511.chunk.js.LICENSE.txt": "/portofoliu/static/js/2.a979f511.chunk.js.LICENSE.txt",
     "static/media/Header.css": "/portofoliu/static/media/Aerial-view-of-Bucharest.6b2aa872.jpg",
     "static/media/me3.jpeg": "/portofoliu/static/media/me3.d64a98d4.jpeg"
   },
   "entrypoints": [
     "static/js/runtime-main.5f83ecb7.js",
-    "static/js/2.1bf0b527.chunk.js",
+    "static/js/2.a979f511.chunk.js",
     "static/css/main.9e0fb2e8.chunk.css",
-    "static/js/main.5acf0039.chunk.js"
+    "static/js/main.bb1e2e34.chunk.js"
   ]
 }
