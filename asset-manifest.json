@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/portofoliu/static/css/main.3e0abff7.chunk.css",
-    "main.js": "/portofoliu/static/js/main.ed014c25.chunk.js",
-    "main.js.map": "/portofoliu/static/js/main.ed014c25.chunk.js.map",
+    "main.css": "/portofoliu/static/css/main.e1927ffe.chunk.css",
+    "main.js": "/portofoliu/static/js/main.e133d66a.chunk.js",
+    "main.js.map": "/portofoliu/static/js/main.e133d66a.chunk.js.map",
     "runtime-main.js": "/portofoliu/static/js/runtime-main.63e7a06c.js",
     "runtime-main.js.map": "/portofoliu/static/js/runtime-main.63e7a06c.js.map",
     "static/js/2.e339c395.chunk.js": "/portofoliu/static/js/2.e339c395.chunk.js",
     "static/js/2.e339c395.chunk.js.map": "/portofoliu/static/js/2.e339c395.chunk.js.map",
     "index.html": "/portofoliu/index.html",
-    "static/css/main.3e0abff7.chunk.css.map": "/portofoliu/static/css/main.3e0abff7.chunk.css.map",
+    "static/css/main.e1927ffe.chunk.css.map": "/portofoliu/static/css/main.e1927ffe.chunk.css.map",
     "static/js/2.e339c395.chunk.js.LICENSE.txt": "/portofoliu/static/js/2.e339c395.chunk.js.LICENSE.txt",
     "static/media/Header.css": "/portofoliu/static/media/Aerial-view-of-Bucharest.4f579bb4.jpg",
     "static/media/me3.a765ac02.jpeg": "/portofoliu/static/media/me3.a765ac02.jpeg"
@@ -16,7 +16,7 @@
   "entrypoints": [
     "static/js/runtime-main.63e7a06c.js",
     "static/js/2.e339c395.chunk.js",
-    "static/css/main.3e0abff7.chunk.css",
-    "static/js/main.ed014c25.chunk.js"
+    "static/css/main.e1927ffe.chunk.css",
+    "static/js/main.e133d66a.chunk.js"
   ]
 }
