@@ -3,9 +3,9 @@
   background-attachment: fixed;
   /* Center and scale the image nicely */
   background-position: top;
-
   background-repeat: no-repeat;
   background-size: cover;
+  object-fit: contain;
 }
 
 .layer {
@@ -91,7 +91,7 @@ p {
 
   .descriere {
     margin-top: 10px;
-    font-size: 20px;
+    font-size: 1rem !important;
     text-align: center;
   }
 
