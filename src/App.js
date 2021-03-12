@@ -18,11 +18,10 @@ class App extends Component {
         <div>
           <Navbar />
           <Switch>
-            <Route path="/" exact component={Homepage} />
-
-            <Route path="/work" component={Work} />
-            <Route path="/contact" component={Contact} />
+            <Route path={process.env.PUBLIC_URL + '/work'} component={Work}   />
+            <Route path={process.env.PUBLIC_URL + '/contact'} component={Contact} />
             <Route path="/admin" component={Admin} />
+            <Route path={process.env.PUBLIC_URL + '/'}  component={Homepage} />
           </Switch>
           <Footer />
         </div>

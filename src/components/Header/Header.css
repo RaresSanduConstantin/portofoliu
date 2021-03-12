@@ -32,8 +32,9 @@ p {
 
 .nume {
   color: white;
-  font-size: 100px;
+  font-size: 4rem;
   font-weight: 900;
+  padding-bottom:3rem;
 }
 
 /* .nume span {
@@ -42,7 +43,7 @@ p {
 
 .descriere {
   color: white;
-  font-size: 2em !important;
+  font-size: 1.5em !important;
   display: flex;
 }
 

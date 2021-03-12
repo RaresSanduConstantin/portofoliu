@@ -1,6 +1,7 @@
 .container {
   max-width: 800px;
   margin: auto;
+  width: 70%;
   padding: 20px;
   /* border-top: 10px solid; */
 
@@ -18,7 +19,7 @@
 
 .skillDesc {
   text-align: center;
-  font-size: 2em;
+  font-size: 1.5em;
   /* text-align: center; */
   font-weight: bold;
   margin-bottom: 25px;
@@ -26,12 +27,12 @@
 
 .skillbar-percent {
   color: black !important;
-  font-size: 16px !important;
+  font-size: 1rem !important;
   font-weight: bold !important;
 }
 
 .skillbar-title {
-  font-size: 16px !important;
+  font-size: 1rem !important;
 }
 
 .skillbar {
@@ -96,5 +97,9 @@
 
   .bar-label {
     font-size: 12px;
+  }
+
+  .container{
+    width: 95%
   }
 }
