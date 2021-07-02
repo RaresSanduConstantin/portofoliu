@@ -7,7 +7,7 @@ const Footer = () => {
       <div className="text-ds dd">
         This website was created by{" "}
         <span className="rares">
-          <a href="/portofoliu">Rares</a>
+          <a href="/admin">Rares</a>
         </span>{" "}
         with love and care
       </div>
