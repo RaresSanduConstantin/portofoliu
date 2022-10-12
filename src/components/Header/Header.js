@@ -42,7 +42,7 @@ const Header = () => {
 
           <div className='descriere'>
             <p>
-              I am a Web Developer located in Bucharest, if you want to know more about me, connect with me on the links above.
+              I am a Web Developer located in Bucharest, if you want to know more, connect with me on the links above.
             </p>
             <span className='ceva' aria-hidden='true'></span>
           </div>

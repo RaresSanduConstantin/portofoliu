@@ -1,9 +1,11 @@
 import React, { useState, useEffect } from 'react';
 import { messageData } from '../../firebase/firebase';
 import './Admin.css';
+import SignInToAdmin from './SignInToAdmin';
 
 const Admin = () => {
   const [messages, setMessages] = useState([]);
+  const [connectToAdmin, setConnectToAdmin] = useState(false);
 
   useEffect( () => {
      messageData.once('value', (snap) => {
@@ -17,12 +19,14 @@ const Admin = () => {
     });
   }, []);
 
-  console.log(messages);
 
   return (
     <div className='contactMesaj'>
       <h1 className='h1'>Contact Mesaj</h1>
- 
+
+      <SignInToAdmin setConnection={setConnectToAdmin} />
+
+      {connectToAdmin ? (
         <div>
         {messages && messages.map((message) =>  (
           <div className='mesaj'>
@@ -36,6 +40,12 @@ const Admin = () => {
         ))
         }
         </div>
+      ) : (
+        <div>
+          <h1>Not connected</h1>
+        </div>
+      )}
+ 
   
     </div>
   );

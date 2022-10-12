@@ -5,14 +5,14 @@ import firebase from "firebase/app";
 import "firebase/firestore";
 
 const config = {
-  apiKey: "AIzaSyCYL0va33N4EmJSLGr0Oy-j6c2zjcTGn3Y",
-  authDomain: "portofoliu-53fba.firebaseapp.com",
-  databaseURL: "https://portofoliu-53fba.firebaseio.com",
-  projectId: "portofoliu-53fba",
-  storageBucket: "portofoliu-53fba.appspot.com",
-  messagingSenderId: "152052172457",
-  appId: "1:152052172457:web:907d4e0dd0fcb987244bb8",
-  measurementId: "G-9MS9FWH6YR",
+  apiKey: process.env.REACT_APP_FIREBASE_API_KEY,
+  authDomain: process.env.REACT_APP_FIREBASE_AUTH_DOMAIN,
+  databaseURL: process.env.REACT_APP_FIREBASE_DATABASE_URL,
+  projectId: process.env.REACT_APP_FIREBASE_PROJECT_ID,
+  storageBucket: process.env.REACT_APP_FIREBASE_STORAGE_BUCKET,
+  messagingSenderId: process.env.REACT_APP_FIREBASE_MESSAGING_SENDER_ID,
+  appId: process.env.REACT_APP_FIREBASE_APPID,
+  measurementId: process.env.REACT_APP_FIREBASE_MEASUREMENT_ID,
 };
 
 export const createUserProfileDocument = async (userAuth, additionalData) => {
