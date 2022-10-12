@@ -38,13 +38,13 @@ const Footer = () => {
 
       <div className='footer-left'>
         <p className='footer-links'>
-          <a className='link-1' href='/'>
+          <Link className='link-1' to='/portofoliu'>
             Home
-          </a>
+          </Link>
 
-          <a href='/work'>My Work</a>
+          <Link to='/portofoliu/work'>My Work</Link>
 
-          <a href='/contact'>Contact</a>
+          <Link to='/portofoliu/contact'>Contact</Link>
         </p>
 
         <p>
