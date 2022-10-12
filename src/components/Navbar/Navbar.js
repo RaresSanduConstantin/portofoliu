@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import {Link} from 'react-router-dom'
 import "./Navbar.css";
 
 export class Navbar extends Component {
@@ -23,15 +24,15 @@ export class Navbar extends Component {
           {/* <a href="/" className="navbarTitle navbarItem">
             Rares's Portfolio
           </a> */}
-          <a href="/" className="navbarItem">
+          <Link to="" className="navbarItem">
             Home
-          </a>
-          <a href="/work" className="navbarItem">
+          </Link>
+          <Link to="/work" className="navbarItem">
             My Work
-          </a>
-          <a href="/contact" className="navbarItem">
+          </Link>
+          <Link to="/contact" className="navbarItem">
             Contact
-          </a>
+          </Link>
         </header>
       </div>
     );

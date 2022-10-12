@@ -8,7 +8,7 @@
 }
 
 .imagine {
-  width: 90vw;
+  width: 80vw;
   height: auto;
   display: flex;
   justify-content: center;
@@ -35,7 +35,7 @@
 }
 
 .text p {
-  font-size: 1.5em;
+  font-size: 1.2em;
 }
 
 .download {
@@ -83,6 +83,13 @@
   .imagine {
     padding: 0;
     margin: 0;
+    width: 330px;
+    height: auto;
+  }
+
+  .img-wd{
+      max-width: 100%;
+      max-height: 100%;
   }
 
   .text {

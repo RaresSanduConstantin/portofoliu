@@ -1,10 +1,11 @@
-.containerForm {
-  width: 100vw;
-  height: 100vh;
+
+.contactMesaj {
+  width: 100%;
+  height: 100%;
   margin: auto;
   padding-top: 100px;
   text-align: center;
-  background: #333;
+  background: #FECACC;
 }
 
 .desc {
@@ -28,6 +29,7 @@
 
 .h1 {
   font-weight: bold;
+  
 }
 
 .p {

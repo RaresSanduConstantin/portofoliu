@@ -1,117 +1,44 @@
-import React, { Component } from "react";
-import { messageData } from "../../firebase/firebase";
-import "./Admin.css";
+import React, { useState, useEffect } from 'react';
+import { messageData } from '../../firebase/firebase';
+import './Admin.css';
 
-class Admin extends Component {
-  constructor(props) {
-    super(props);
-    this.state = { typingDesc: "", description: "" };
+const Admin = () => {
+  const [messages, setMessages] = useState([]);
 
-    this.returnData();
-
-    this.adminMesaj = React.createRef();
-  }
-
-  handleTypingChange = (event) => {
-    //handles change in the input's value
-    this.setState({ typingDesc: event.target.value });
-  };
-
-  handleDescriptionChange = (event) => {
-    //handles change in the input's value
-    this.setState({ description: event.target.value });
-  };
-
-  handleSubmitAdmin(e) {
-    console.log(this.state.typingDesc, this.state.description);
-    e.preventDefualt();
-  }
-
-  returnData() {
-    messageData.once("value", (snap) => {
+  useEffect( () => {
+     messageData.once('value', (snap) => {
       const obiectMesaj = snap.val();
-      // console.log(obiectMesaj);
-      for (const p in obiectMesaj) {
-        console.log(`${p}:`, obiectMesaj[p].email);
+      const arrayMesaj = [];
+      for (let id in obiectMesaj) {
+        arrayMesaj.push({ id, ...obiectMesaj[id] });
       }
+      setMessages(arrayMesaj);
+
     });
-  }
+  }, []);
 
-  removeData() {}
+  console.log(messages);
 
-  render() {
-    return (
-      <div className="containerForm">
-        <form>
-          <div className="desc">
-            <h1 className="h1">Header Page!</h1>
-            <p className="p">
-              <label>Typing description:</label>
-            </p>
-            <input
-              id="typintDesc"
-              type="text"
-              placeholder="typind description"
-              value={this.typingDesc}
-              onChange={this.handleTypingChange}
-            />
-
-            <p className="p">
-              <label>Description:</label>
-            </p>
-            <input
-              id="description"
-              type="text"
-              placeholder="Description"
-              value={this.description}
-              onChange={this.handleDescriptionChange}
-            />
-            <h1 className="h1">Work Page</h1>
-            <p className="p">
-              <label>Update Work:</label>
-            </p>
-            <input
-              className="inputWork"
-              id="imgUrl"
-              type="text"
-              placeholder="imgUrl"
-            />
-            <input
-              className="inputWork"
-              id="titleUrl"
-              type="text"
-              placeholder="titleUrl"
-            />
-            <input
-              className="inputWork"
-              id="descriptionUrl"
-              type="text"
-              placeholder="descriptionUrl"
-            />
-            <input
-              className="inputWork"
-              id="viewCodeBase"
-              type="text"
-              placeholder="viewCodeBase"
-            />
-            <input
-              className="inputWork"
-              id="viewAppLive"
-              type="text"
-              placeholder="viewAppLive"
-            />
-            <h1 className="h1">Contact Mesaj</h1>
-            <div className="contactMesaj">
-              <div></div>
-            </div>
-            <button onClick={this.handleSubmitAdmin} className="buttonSubmit">
-              Submit
-            </button>
+  return (
+    <div className='contactMesaj'>
+      <h1 className='h1'>Contact Mesaj</h1>
+ 
+        <div>
+        {messages && messages.map((message) =>  (
+          <div className='mesaj'>
+            <hr />
+            <p className='p'>Nume: {message.name}</p>
+            <p className='p'>Email: {message.email}</p>
+            <p className='p'>Telefon: {message.phone}</p>
+            <p className='p'>Mesaj: {message.message}</p>
+            <hr />
           </div>
-        </form>
-      </div>
-    );
-  }
-}
+        ))
+        }
+        </div>
+  
+    </div>
+  );
+};
 
 export default Admin;
