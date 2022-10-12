@@ -24,13 +24,13 @@ export class Navbar extends Component {
           {/* <a href="/" className="navbarTitle navbarItem">
             Rares's Portfolio
           </a> */}
-          <Link to="/portofoliu" className="navbarItem">
+          <Link to="" className="navbarItem">
             Home
           </Link>
-          <Link to="/portofoliu/work" className="navbarItem">
+          <Link to="/work" className="navbarItem">
             My Work
           </Link>
-          <Link to="/portofoliu/contact" className="navbarItem">
+          <Link to="/contact" className="navbarItem">
             Contact
           </Link>
         </header>

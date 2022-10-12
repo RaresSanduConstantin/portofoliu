@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import "./Description.css";
-import ME from "../../assets/me3.jpeg";
+import ME from "../../assets/me.png";
 
 export class Description extends Component {
   render() {
@@ -20,10 +20,8 @@ export class Description extends Component {
           </p>
 
           <p>
-            I am a highly motivated self-taught web developer, chemical engineer
-            and sales specialist at the beginning of my career looking for a
-            collaboration where I can put my creativity and problem-solving
-            skills into practice.
+          A proactive team player with excellent adaptability to dynamic environments, looking for a rewarding professional development opportunity.
+          Motivation and encouragement to deliver results are crucial qualities that I exhibit. I am self-driven and self-reliant, collaborative and have good interpersonal skills.
           </p>
           <a
             className="download"

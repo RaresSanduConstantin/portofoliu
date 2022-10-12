@@ -29,8 +29,8 @@ class App extends Component {
               component={Contact}
             />
             <Route path="/admin" component={Admin} />
-            {/* <Route path={process.env.PUBLIC_URL + "/"} component={Homepage} /> */}
-            <Route path={process.env.PUBLIC_URL + "/"} component={SignIn} />
+            <Route path={process.env.PUBLIC_URL + "/"} component={Homepage} />
+            <Route path={process.env.PUBLIC_URL + "/signin"} component={SignIn} />
           </Switch>
           <Footer />
         </div>
