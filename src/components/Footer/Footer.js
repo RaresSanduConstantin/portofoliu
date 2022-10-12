@@ -1,5 +1,6 @@
 import React from 'react';
 import './Footer.css';
+import {Link} from 'react-router-dom'
 
 const Footer = () => {
   return (
@@ -48,8 +49,10 @@ const Footer = () => {
 
         <p>
           {' '}
-          This website was created by
-          <a style={{color:'inherit'}} href='/portofoliu/admin'> Rares </a>
+          This website was created by {' '}
+          <Link to="/portofoliu/admin" style={{color:'inherit'}} >
+          Rares
+          </Link>{" "}
           with &#10084; and care
         </p>
       </div>
