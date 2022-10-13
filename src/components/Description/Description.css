@@ -74,6 +74,19 @@
   color: #494949;
 }
 
+@media screen and (max-width: 768px) {
+  .description {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .imagine {
+    margin-bottom: 20px;
+  }
+}
+  
+
+
 @media (max-width: 600px) {
   .description {
     display: flex;
