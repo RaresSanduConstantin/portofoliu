@@ -32,6 +32,10 @@ const Work = () => {
               </Tilt>
               <div className="text-card">
                 <p className="title">{otherProps.title}</p>
+                <div className="container-work-details">
+                  <p className="work-stack">Stack: {otherProps.stack}</p>
+                  <p className="work-description">Description: {otherProps.description}</p>
+                </div>
                 <div className="btn-link1">
                   <a
                     className="example_d"
